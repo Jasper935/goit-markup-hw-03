@@ -157,7 +157,7 @@ img {
   text-transform: uppercase;
 }
 /*Button*/
-.hero button {
+.hero .btn {
   color: var(--button-color);
   background-color: var(--button-bg-color);
 
@@ -165,14 +165,18 @@ img {
   font-size: 16px;
   line-height: 1.9;
   margin-bottom: 200px;
+  align-items: center;
 
   text-align: center;
   font-family: inherit;
   cursor: pointer;
-
+  border: #2196f3;
   padding: 10px 32px;
-  box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.15);
-  border-radius: 4px;
+  background:var(--button-bg-color) ;
+box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.15);
+border-radius: 4px;
+letter-spacing: 0.06em
+  
 }
 
 /*Sections*/
