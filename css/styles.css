@@ -225,8 +225,17 @@ letter-spacing: 0.06em
   line-height: 1.7;
 }
 
-.feutures .section-title {
-  display: none;
+.visually-hidden {
+  position: absolute;
+  width: 1px;
+  height: 1px;
+  margin: -1px;
+  border: 0;
+  padding: 0;
+  white-space: nowrap;
+  clip-path: inset(100%);
+  clip: rect(0 0 0 0);
+  overflow: hidden;
 }
 
 .feutures .title {
@@ -354,10 +363,7 @@ address a {
 }
 
 /* Filter */
-.page-examples-title,
-.page-filter-title {
-  display: none;
-}
+
 .filter {
   display: flex;
   justify-content: center;
@@ -410,19 +416,19 @@ address a {
 
   letter-spacing: 0.06em;
 }
-/* ???????? */
-.container.works{
-  width: 1200px;
+ /* ????????  */
+ .container.works{
+   width: 1200px; 
 }
 .examples .text {
   color: var(--secondary-text-color);
-  margin-top: 4;
+  margin-top: 4px;
   margin-bottom: 0;
   font-size: 16px;
   line-height: 1.9;
 }
 .examples .item{
-  
+  width: 370px;
   margin-bottom: 30px;
   margin-right: 30px;
 }
@@ -437,7 +443,7 @@ margin-bottom: 0;
 .examples.grid{
   display: flex;
   flex-wrap: wrap;
-  gap:var(indent);
+  gap:var(--indent);
     flex-basis: calc(
       (100% - (var(--indent) * (var(--items) - 1))) / var(--items));
   }
