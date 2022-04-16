@@ -421,12 +421,12 @@ address a {
   font-size: 16px;
   line-height: 1.9;
 }
-.examples .examp{
+.examples .item{
   
   margin-bottom: 30px;
   margin-right: 30px;
 }
-.examples .examp:nth-child(3n){
+.examples .item:nth-child(3n){
 margin-right: 0;
 }
 .examples .examp:nth-last-child(-n+3){
