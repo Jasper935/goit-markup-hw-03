@@ -137,7 +137,7 @@ img {
 .hero {
   background-color: var(--secondary-bg-color);
 
-  font-weight: 900;
+  font-weight: 900px;
   font-size: 44px;
   line-height: 1.4;
   padding-top: 200px;
@@ -428,3 +428,4 @@ address a {
   border-left: 1px solid #eeeeee;
   border-right: 1px solid #eeeeee;
 }
+
