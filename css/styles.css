@@ -204,7 +204,9 @@ img {
 .feutures .list {
   display: flex;
 }
-
+.feutures .list-item:not(:last-child) {
+  margin-right: 30px;
+}
 .feutures .text {
   width: 270px;
   color: var(--secondary-text-color);
